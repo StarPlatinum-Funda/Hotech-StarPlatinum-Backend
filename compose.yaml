@@ -1,7 +1,7 @@
 services:
-  inn_app:
+  hotech:
     build: ./
-    image: ryzeon/inn_app:latest
+    image: ryzeon/hotech:latest
     mem_limit: 512m
     ports:
       - "8045:8045"
@@ -11,16 +11,16 @@ services:
       DB_PASSWORD: securepassword123
     restart: always
     depends_on:
-      inn_app_mysql:
+      hotech_mysql:
         condition: service_healthy
-  inn_app_mysql:
+  hotech_mysql:
     image: 'mysql:latest'
     ports:
       - "3309:3309"
     environment:
       MYSQL_ROOT_PASSWORD: securepassword123
       MYSQL_PASSWORD: securepassword123
-      MYSQL_DATABASE: inncontrol_backend
+      MYSQL_DATABASE: hotech_backend
     restart: always
     healthcheck:
       test: ["CMD", "mysqladmin" ,"ping", "-h", "localhost"]

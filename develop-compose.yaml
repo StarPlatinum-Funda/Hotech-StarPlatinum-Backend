@@ -6,7 +6,7 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: securepassword123
       MYSQL_PASSWORD: securepassword123
-      MYSQL_DATABASE: inncontrol_backend
+      MYSQL_DATABASE: hotech_backend
 #    restart: on-failure
 #    healthcheck:
 #      test: ["CMD", "mysqladmin" ,"ping", "-h", "localhost"]
