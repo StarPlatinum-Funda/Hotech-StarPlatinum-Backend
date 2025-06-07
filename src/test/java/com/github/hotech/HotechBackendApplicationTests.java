@@ -3,7 +3,7 @@ package com.github.hotech;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class InncontrolBackendApplicationTests {
+class HotechBackendApplicationTests {
 
 //	@Test
 //	void contextLoads() {

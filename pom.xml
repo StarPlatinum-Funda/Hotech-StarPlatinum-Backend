@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.github</groupId>
-    <artifactId>inncontrol-backend</artifactId>
+    <artifactId>Hotech-backend</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>inncontrol-backend</name>
     <description>inncontrol-backend</description>
