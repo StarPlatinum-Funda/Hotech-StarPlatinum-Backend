@@ -7,11 +7,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.Optional;
 
-/**
- * Created by Alex Avila Asto - A.K.A (Ryzeon)
- * Project: inncontrol-backend
- * Date: 6/21/24 @ 08:03
- */
 @Service
 @AllArgsConstructor
 public class ExternalEmployeeService {

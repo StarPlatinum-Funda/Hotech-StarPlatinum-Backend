@@ -25,14 +25,14 @@ public class OpenApiConfiguration {
         // General configuration
         var openApi = new OpenAPI();
         openApi.info(new Info()
-                        .title("Inn Control Platform API")
-                        .description("Inn Control application REST API documentation.")
+                        .title("Hotech Platform API")
+                        .description("Hotech application REST API documentation.")
                         .version("v1.0.0")
                         .license(new License().name("Apache 2.0")
                                 .url("https://springdoc.org")))
                 .externalDocs(new ExternalDocumentation()
-                        .description("Inn Control platform wiki documentation")
-                        .url("https://inncontrol-platform.wiki.github.io/docs"));
+                        .description("Hotech platform wiki documentation")
+                        .url("https://github.com/StarPlatinum-Funda/Hotech-StarPlatinum-Report"));
 
          boolean isRunningInProd =  activeProfile.equals("prod");
 
