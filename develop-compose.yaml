@@ -1,5 +1,5 @@
 services:
-  inn_app_mysql:
+  hotech_mysql:
     image: 'mysql:latest'
     ports:
       - "3309:3306"
